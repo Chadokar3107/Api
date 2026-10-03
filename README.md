@@ -7,16 +7,15 @@ A common analogy is a restaurant. You (the app) don't walk into the kitchen. You
 
 Example: A weather app on your phone doesn't collect weather data itself. It sends a request to a weather service's API, something like "give me today's forecast for Pune," and gets back structured data (usually JSON) that the app then displays.
 
-Weather App
-    ↓
-    API Request
-    ↓
-Weather Server
-    ↓
-    API Response
-    ↓
-Weather App
+```mermaid
+graph TD
+    App1[Weather App] -->|API Request| Server[Weather Server]
+    Server -->|API Response| App2[Weather App]
+```
+
+
 The response might look something like:
+
 {
   "city": "Pune",
   "temperature": 28,
