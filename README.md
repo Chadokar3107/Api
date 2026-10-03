@@ -1,5 +1,5 @@
 # Api
-Notes on api
+<h2>Notes on api</h2>
 
 An API (Application Programming Interface) is a set of rules that lets one piece of software talk to another. It defines what you can ask for, how to ask, and what you'll get back, without you needing to know how the other system works internally.
 
@@ -23,3 +23,11 @@ The response might look something like:
 }
 
 <b>Why do we need APIs?</b>
+<p> Imagine you are building a food-delivery application.</p>
+You need:
+<ul><li>Maps 🗺️ </li>
+<li>Online payments 💳</li>
+<li>Restaurant information 🍔</li>
+<li>SMS/OTP 📱</li>
+<li>User authentication 🔐</li></ul>
+
