@@ -31,3 +31,17 @@ You need:
 <li>SMS/OTP 📱</li>
 <li>User authentication 🔐</li></ul>
 
+You don't need to build all these systems yourself.Instead, your application can communicate with other services through their APIs.
+
+For example:
+
+```mermaid
+graph LR
+    API[API] --> Maps[Maps API ➔ Google Maps]
+    API --> Payment[Payment API ➔ Payment provider]
+    API --> SMS[SMS API ➔ SMS service]
+    API --> Restaurant[Restaurant API ➔ Restaurant database]
+```
+
+
+
